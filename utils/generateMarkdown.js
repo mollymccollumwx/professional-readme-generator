@@ -1,29 +1,27 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license === "MIT License"){
-    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
-  } else if (license === "GNU GPL 3.0"){
-    return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
-  } else if (license === "Apache License 2.0"){
-    return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
-  } else if (license === "ISC License"){
-    return `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`
+  if (license === "MIT License") {
+    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+  } else if (license === "GNU GPL 3.0") {
+    return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
+  } else if (license === "Apache License 2.0") {
+    return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
+  } else if (license === "ISC License") {
+    return `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`;
   } else {
-    return ""
+    return "";
   }
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
-  
-}
+function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (license === "MIT License"){
+  if (license === "MIT License") {
     return `MIT License
 
     Copyright (c) [2020]
@@ -44,18 +42,17 @@ function renderLicenseSection(license) {
     AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-    SOFTWARE.`
-  } else if (license === "GNU GPL 3.0"){
+    SOFTWARE.`;
+  } else if (license === "GNU GPL 3.0") {
     return `GNU GENERAL PUBLIC LICENSE
     Version 3, 29 June 2007
 
-Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
-Everyone is permitted to copy and distribute verbatim copies
-of this license document, but changing it is not allowed.`
+    Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+    Everyone is permitted to copy and distribute verbatim copies
+    of this license document, but changing it is not allowed.`;
   } else {
-    return ""
-  } 
-  
+    return "";
+  }
 }
 
 // TODO: Create a function to generate markdown for README
@@ -93,7 +90,9 @@ ${data.contributing}
 ${data.test}
 
 ## Questions
-If you have any questions, feel free to contact me on [Github](https://www.github.com/${data.github}).
+If you have any questions, feel free to contact me on [Github](https://www.github.com/${
+    data.github
+  }).
 Alternatively, you can email me at ${data.email}.
   
 `;
