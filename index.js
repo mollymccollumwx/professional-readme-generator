@@ -35,12 +35,12 @@ const questions = [
         type: "input",
         message: "Please enter your project title:",
         name: "test",
-    },
-    {
-        type: "list",
-        message: "Please enter your project title:",
-        name: "license",
     }
+    // {
+    //     type: "list",
+    //     message: "Please enter your project title:",
+    //     name: "license",
+    // }
     
     
 ];
