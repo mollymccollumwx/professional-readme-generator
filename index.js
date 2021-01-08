@@ -45,7 +45,6 @@ const questions = [
       "MIT License",
       "GNU GPL 3.0",
       "Apache License 2.0",
-      "ISC License",
     ],
   },
   {
@@ -55,15 +54,15 @@ const questions = [
   },
   {
     type: "input",
-    message: "What is your email?:",
+    message: "What is your email address?:",
     name: "email",
-  },
+  }
 ];
 
 // Function to write README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, generateMarkdown(data), (err) => {
-    err ? console.error(err) : console.log("Success!");
+    err ? console.error(err) : console.log("Successfully created README!");
   });
 }
 
