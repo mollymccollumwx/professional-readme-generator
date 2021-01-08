@@ -14,7 +14,13 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license === "No License"){
+    return ``;
+  } else {
+    return `[License](#License)`
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -235,7 +241,7 @@ ${data.description}
 ## Table of Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
-* [License](#License)
+* ${renderLicenseLink(data.license)}
 * [Contributing](#Contributing)
 * [Tests](#Tests)
 * [Questions](#Questions)

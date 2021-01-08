@@ -45,6 +45,7 @@ const questions = [
       "MIT License",
       "GNU GPL 3.0",
       "Apache License 2.0",
+      "No License"
     ],
   },
   {
