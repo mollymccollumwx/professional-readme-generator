@@ -1,9 +1,9 @@
 
-# test
+# My Portfolio
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-test
+A developer portfolio that displays several dev works as well as contact information
 
 
 ## Table of Contents
@@ -15,10 +15,10 @@ test
 * [Questions](#Questions)
 
 ## Installation
-test
+Use node.js and install the inquireer package
 
 ## Usage 
-test
+Use the command line to generate your README. Answer the prompts
 
 ## License
 MIT License
@@ -44,13 +44,13 @@ MIT License
     SOFTWARE.
 
 ## Contributing
-test
+Please see the Questions section below to contact the author to be added as a contributor.
 
 
 ## Tests
-test
+No tests
 
 ## Questions
-If you have any questions, feel free to contact me on [Github](https://www.github.com/test).
-Alternatively, you can email me at test.
+If you have any questions, feel free to contact me on [Github](https://www.github.com/mollymccollumwx).
+Alternatively, you can email me at mollymccollumwx@gmail.com.
   
