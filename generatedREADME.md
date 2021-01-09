@@ -1,9 +1,9 @@
 
-# My Portfolio
+# README Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-A developer portfolio that displays several dev works as well as contact information
+README Generator is a command-line interface designed to quickly create a README for developers. The user is prompted with a series of questions that are then used to dynamically generate a README. This application was created to speed up the process of making a basic but professional README.
 
 
 ## Table of Contents
@@ -15,15 +15,15 @@ A developer portfolio that displays several dev works as well as contact informa
 * [Questions](#Questions)
 
 ## Installation
-Use node.js and install the inquireer package
+Clone the repo from Github.
 
 ## Usage 
-Use the command line to generate your README. Answer the prompts
+This is a CIL that is meant to be used by developers only. Run node index.js in the terminal to start the series of prompts. 
 
 ## License
 MIT License
 
-    Copyright (c) [2021]
+    Copyright (c) [2020]
     
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -48,7 +48,7 @@ Please see the Questions section below to contact the author to be added as a co
 
 
 ## Tests
-No tests
+Test this application by running it with different input.
 
 ## Questions
 If you have any questions, feel free to contact me on [Github](https://www.github.com/mollymccollumwx).
