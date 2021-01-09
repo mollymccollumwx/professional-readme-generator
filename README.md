@@ -28,7 +28,7 @@ If you have questions on how to use this application, watch this walk-through vi
 
 ![Terminal Input](./images/CLI-example.png)
 
-picture here of CODE
+![Generated README](./images/README-example.png)
 
 ## Contributing
 
