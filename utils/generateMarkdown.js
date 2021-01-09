@@ -270,5 +270,5 @@ Alternatively, you can email me at ${data.email}.
   
 `;
 }
-
+//exports generateMarkdown function to be used in other JS file
 module.exports = generateMarkdown;
