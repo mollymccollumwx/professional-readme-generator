@@ -25,3 +25,9 @@ README Generator is a command-line interface designed to quickly create a README
 picture here
 
 picture here
+
+## Contributing
+
+## 
+
+## License
