@@ -18,6 +18,7 @@ function renderLicenseLink(license) {
   if (license === "No License"){
     return ``;
   } else {
+    //puts the license in table of contents on a new line
     return `\n* [License](#License)`
   }
 }
