@@ -18,7 +18,7 @@ README Generator is a command-line interface designed to quickly create a README
 Clone the repo from Github.
 
 ## Usage 
-This is a CIL that is meant to be used by developers only. Run node index.js in the terminal to start the series of prompts. 
+This is a CLI that is meant to be used by developers only. Run nod index.js in the terminal to start the series of prompts used to generate the README.
 
 ## License
 MIT License
@@ -48,7 +48,7 @@ Please see the Questions section below to contact the author to be added as a co
 
 
 ## Tests
-Test this application by running it with different input.
+Test this application by running it in the command line with different input.
 
 ## Questions
 If you have any questions, feel free to contact me on [Github](https://www.github.com/mollymccollumwx).
