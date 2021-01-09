@@ -18,7 +18,7 @@ function renderLicenseLink(license) {
   if (license === "No License"){
     return ``;
   } else {
-    return `[License](#License)`
+    return `\n* [License](#License)`
   }
 }
 
@@ -240,8 +240,7 @@ ${data.description}
 
 ## Table of Contents
 * [Installation](#Installation)
-* [Usage](#Usage)
-* ${renderLicenseLink(data.license)}
+* [Usage](#Usage)${renderLicenseLink(data.license)}
 * [Contributing](#Contributing)
 * [Tests](#Tests)
 * [Questions](#Questions)
