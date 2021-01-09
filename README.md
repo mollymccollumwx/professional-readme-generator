@@ -25,7 +25,7 @@ README Generator is a command-line interface designed to quickly create a README
 
 ## Usage
 
-If you have questions on how to use this application, watch this walk-through video: 
+If you have questions on how to use this application, watch this [walk-through video](https://drive.google.com/file/d/1FLHhSCbc-FvRYZzYeX7uUj9zV9RTAsV0/view?usp=sharing).
 
 ![Terminal Input](./images/CLI-example.png)
 

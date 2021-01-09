@@ -1,5 +1,5 @@
 
-# test
+# Molly
 
 
 ## Description
@@ -17,17 +17,17 @@ test
 test
 
 ## Usage 
-test
+test 
 
 ## License
 
 
 ## Contributing
-ttest
+GA Tech TA's and Teachers
 
 
 ## Tests
-test
+sample
 
 ## Questions
 If you have any questions, feel free to contact me on [Github](https://www.github.com/test).
