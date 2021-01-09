@@ -18,9 +18,10 @@ README Generator is a command-line interface designed to quickly create a README
 
 ## Installation
 
-1. Navigate to the Github repo for the [README Generator](https://github.com/mollymccollumwx/professional-readme-generator)
-2. Copy the SSH key in the green "Code" button
-3. Clone the repo in your terminal
+1. Navigate to the Github repo for the [README Generator](https://github.com/mollymccollumwx/professional-readme-generator) and fork the repository. 
+2. Copy the SSH key in the green "Code" button.
+3. Clone the repo in your terminal.
+4. Run npm install (make sure you have node.js installed first). 
 
 ## Usage
 
