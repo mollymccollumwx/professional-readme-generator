@@ -68,6 +68,7 @@ function writeToFile(fileName, data) {
 }
 
 // Function to initialize app
+//using the inquirer package to prompt with questions created above. Once the prompts are completed, THEN it will console log the response and run the writeToFile function
 function init() {
   inquirer.prompt(questions).then((response) => {
     console.log(response);
