@@ -26,7 +26,7 @@ picture here of README
 
 If you have questions on how to use this application, watch this walk-through video: 
 
-![Terminal Input][./assets/images/CIL-example.png]
+![Terminal Input](./images/CLI-example.png)
 
 picture here of CODE
 
