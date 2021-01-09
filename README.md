@@ -6,7 +6,7 @@
 
 README Generator is a command-line interface designed to quickly create a README for developers. The user is prompted with a series of questions that are then used to dynamically generate a README. This application was created to speed up the process of making a basic but professional README.
 
-picture here of README
+![Generated README Example](./images/GeneratedREADME.png)
 
 ## Table of Contents
 
